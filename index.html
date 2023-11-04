@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <li style="color: purple;"><b><i>Irshad</i></b></li>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><a href="#" style="color: white;"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" style="color: white;"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" style="color: white;"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"style="color: white;"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+
+    <!-- Header -->
+    <header class="header container" id="home">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="row hero">
+            <div class="intro">
+                <h1>Hey, I’m <span class="highlight">Irshad</span><br />Web Developer.</h1>
+                <p style="color: bl;"><b>Hi, I'm Irshad, a Web Developer from Pakistan. <br>I help brands turn their ideas into high-quality websites.</b></p>
+                <a href="#contact" class="ctn">Contact</a>
+            </div>
+            <div class="hero-img">
+                <img src="./img/profile .png" alt="Profile Image" class="animated-image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio -->
+    <section class="portfolio container" id="portfolio">
+        <div class="rect-bg"></div>
+        <div class="title">
+            <h1 style="color: purple;">Don't be shy say Hi !</h1>
+            <div class="ctn-title">
+                <h2>Explore all Creative Works</h2>
+                <h2 style="color: white;">Discover All Projects on <span class="highlight">Github <i class="fa fa-arrow-right"></i></span></h2>
+            </div>
+        </div>
+        <div class="grid-wrapper">
+            <div class="grid-box">
+                <img src="./img/prj-1.png" alt="Project 1" />
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="grid-box">
+                <img src="./img/prj-2.png" alt="Project 2" />
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="grid-box">
+                <img src="./img/prj-3.png" alt="Project 3" />
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills container" id="skills">
+        <div class="main-skills">
+            <div class="title">
+
+                <h1>My Expertise</h1>
+            </div>
+            <div class="grid-wrapper">
+                <div class="grid-box">
+                    <div class="icon-title">
+                        <i class="fas fa-code" style="color: white;"></i>
+                        <h2>HTML</h2>
+                    </div>
+                    <p>I'm proficient in HTML, the foundation of web development. I create structured and semantically meaningful content for websites.</p>
+                </div>
+                <div class="grid-box">
+                    <div class "icon-title">
+                        <i class="fab fa-css3" style="color: white;"></i>
+                        <h2>CSS</h2>
+                    </div>
+                    <p>I specialize in CSS to design and style web pages. I ensure responsiveness and aesthetics with CSS.</p>
+                </div>
+                <div class="grid-box">
+                    <div class="icon-title">
+                        <i class="fab fa-js" style="color: white;"></i>
+                        <h2>JavaScript</h2>
+                    </div>
+                    <p>JavaScript is my forte. I create interactive and dynamic web applications, enhancing user experience.</p>
+                </div>
+                <div class="grid-box">
+                    <div class="icon-title">
+                        <i class="fab fa-react" style="color: white;"></i>
+                        <h2>React JS</h2>
+                    </div>
+                    <p>I'm skilled in React JS, building robust and efficient web applications. React is my tool for creating responsive UIs.</p>
+                </div>
+              
+                <div class="grid-box">
+                    <div class="icon-title">
+                        <i class="fab fa-bootstrap" style="color: white;"></i>
+                        <h2>Bootstrap</h2>
+                    </div>
+                    <p>Bootstrap is my choice for front-end development. I craft responsive and sleek designs using Bootstrap's components.</p>
+                </div>
+                <div class="grid-box">
+                    <div class="icon-title">
+                        <i class="fas fa-database" style="color: white;"></i>
+                        <h2>MongoDB</h2>
+                    </div>
+                    <p>I'm experienced with MongoDB, a NoSQL database. I manage and store data efficiently for web applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact -->
+   <section class="contact" id="contact">
+    <div class="container">
+        <h3 style="color: white;">CONTACT ME</h3>
+        <h1 style="color: pink;">Got A Project! Let's Talk</h1>
+        <h3 style="color: white;"><i class="fa fa-envelope-o" style="color: white;"></i> irshad0075@gmail.com</h3>
+        <div class="quick-links">
+           
+            <ul>
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#skills">Skills</a></li>
+                <li style="color: pink;"><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="copyright container">
+        <p style="color: purple;">© 2023 Irshad | Let's get connected</p>
+    </div>
+</footer>
+</body>
+</html>
